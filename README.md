@@ -14,5 +14,5 @@ Instagram feed clone with react native
 ## How to run 
 * Run `yarn add` to install the dependencies
 * Run `adb reverse tcp:3000 tcp:3000` to change your tcp port
-* Run `yarn json-server server.json -d 1000 -w` to run the server
+* Run `yarn dev:server` to run the server
 * Run `yarn android` and enjoy 💥 
