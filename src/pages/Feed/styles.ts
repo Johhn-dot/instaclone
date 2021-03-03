@@ -1,9 +1,5 @@
 import styled from 'styled-components/native';
 
-interface PostImageProps {
-  aspectRatio: number;
-}
-
 export const Container = styled.View``;
 
 export const Post = styled.View`
@@ -26,10 +22,6 @@ export const Avatar = styled.Image`
 export const Name = styled.Text`
   color: #333;
   font-weight: bold;
-`;
-
-export const PostImage = styled.Image<PostImageProps>`
-  width: 100%;
 `;
 
 export const Description = styled.Text`

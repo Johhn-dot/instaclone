@@ -1,15 +1,9 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {FlatList} from 'react-native';
 
-import {
-  Post,
-  Header,
-  Avatar,
-  Name,
-  PostImage,
-  Description,
-  Loading,
-} from './styles';
+import {LazyImage} from '../../components/LazyImage';
+
+import {Post, Header, Avatar, Name, Description, Loading} from './styles';
 
 export const Feed = () => {
   const [feed, setFeed] = useState<any>();
@@ -72,9 +66,10 @@ export const Feed = () => {
             <Name>{post.author.name}</Name>
           </Header>
 
-          <PostImage
+          <LazyImage
             aspectRatio={post.aspectRatio}
-            source={{uri: post.image}}
+            source={post.image}
+            smallSource={post.small}
           />
 
           <Description>
