@@ -10,6 +10,10 @@ Instagram feed clone with react native
 ## Features
 * Pull to refresh
 * Infinite loading
+* Image lazyLoading
+
+## Mains Studies 
+* Flatlist props 
 
 ## How to run 
 * Run `yarn add` to install the dependencies
