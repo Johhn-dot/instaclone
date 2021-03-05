@@ -12,7 +12,7 @@ Instagram feed clone with react native
 * Infinite loading
 * Image lazyLoading
 
-## Mains Studies 
+## Main Studies 
 * Flatlist props 
 
 ## How to run 
